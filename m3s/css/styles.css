@@ -91,6 +91,7 @@ body {
 
 #chicken-tile {
   background-color: #a56cd5;
+  min-height: 1000px;
 }
 #beef-tile {
   background-color: #95ce74;
