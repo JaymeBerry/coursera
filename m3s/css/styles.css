@@ -1,0 +1,103 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+	background: rgba(253,183,72,1);
+	background: -moz-linear-gradient(top, rgba(253,183,72,1) 0%, rgba(255,255,255,1) 100%);
+	background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(253,183,72,1)), color-stop(100%, rgba(255,255,255,1)));
+	background: -webkit-linear-gradient(top, rgba(253,183,72,1) 0%, rgba(255,255,255,1) 100%);
+	background: -o-linear-gradient(top, rgba(253,183,72,1) 0%, rgba(255,255,255,1) 100%);
+	background: -ms-linear-gradient(top, rgba(253,183,72,1) 0%, rgba(255,255,255,1) 100%);
+	background: linear-gradient(to bottom, rgba(253,183,72,1) 0%, rgba(255,255,255,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fdb748', endColorstr='#ffffff', GradientType=0 );
+	background-repeat: repeat-x;
+	font-family: 'Mirza', cursive;
+	font-size: 16px;
+	color: #333;
+}
+.m3-title {
+	color: #333;
+	font-size: 40px;
+}
+
+/* Header */
+#header-nav {
+	border: 0;
+	border-radius: 0;
+	background-color: #0066a2;
+}
+.navbar-brand {
+	padding-top: 25px;
+}
+.navbar-brand h1 {
+	font-size: 2.5em;
+	font-weight: 400;
+	color: #fff;
+	margin-top: 0;
+    margin-bottom: 0;
+    line-height: 20px;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+	text-decoration: none;
+}
+#nav-list {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+#nav-list a {
+  color: #fff;
+  border-bottom: 1px solid #fff;
+  text-align: center;
+  font-size: 18px;
+  padding: 0px;
+  padding-top: 10px;
+}
+#nav-list a:hover {
+  background: #fdb748;
+  color: #333;
+}
+#nav-list a span {
+  font-size: 1.8em;
+}
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #fff;
+  background-color: #fdb748;
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -30px;
+}
+/* END HEADER */
+
+/* HOME PAGE */
+.container {
+	margin: 0px;
+}
+
+#chicken-tile, #beef-tile, #sushi-tile {
+  min-height: 250px;
+  width: 100%;
+  margin-bottom: 15px;
+  position: relative;
+  padding: 25px;
+  border: 2px solid #fff;
+  overflow: hidden;
+}
+#chicken-tile strong, #beef-tile strong, #sushi-tile strong {
+  font-size: 30px;
+}
+
+#chicken-tile {
+  background-color: #a56cd5;
+}
+#beef-tile {
+  background-color: #95ce74;
+}
+
+#sushi-tile {
+  background-color: #ef6651;
+}
+
+/* END HOME PAGE */
